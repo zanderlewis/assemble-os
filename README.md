@@ -2,7 +2,7 @@
 AssembleOS is an Operating System made in 100% Assembly. It features basic commands and a basic on-RAM filesystem.
 
 ## Background
-AssembleOS is an operating system in pure assembly language, entirely written by AI (Claude 3.7 Sonnet, ChatGPT o3, and ChatGPT o4). It is designed to be simple and lightweight, making it easy to understand and modify. The OS is built using NASM (Netwide Assembler) and runs on QEMU, a generic and open-source machine emulator and virtualizer.
+AssembleOS is an operating system in pure assembly language, entirely written by AI (Claude 3.7 Sonnet, ChatGPT o3, and ChatGPT o4). This was made to test the limits of these AIs and to see if AI can code in assembly language. It is designed to be simple and lightweight, making it easy to understand and modify. The OS is built using NASM (Netwide Assembler) and runs on QEMU, a generic and open-source machine emulator and virtualizer.
 
 ## Pre-requisites
 For building AssembleOS, you need to have the following tools installed:
@@ -10,7 +10,7 @@ For building AssembleOS, you need to have the following tools installed:
 - [QEMU](https://www.qemu.org/)
 - [Make](https://www.gnu.org/software/make/)
 
-You can install these tools using your package manager. For example, on MacOS, you can run:
+You can install these tools using your package manager. For example, on macOS, you can run:
 ```bash
 brew install nasm qemu make
 ```
